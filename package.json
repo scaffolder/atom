@@ -1,5 +1,5 @@
 {
-  "name": "Scaffolder",
+  "name": "scaffolder",
   "main": "./lib/atom",
   "version": "0.1.0",
   "description": "Scaffolder plugin for Atom editor",
