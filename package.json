@@ -1,0 +1,18 @@
+{
+  "name": "Scaffolder",
+  "main": "./lib/atom",
+  "version": "0.0.0",
+  "description": "Scaffolder plugin for Atom editor",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom:toggle"
+  },
+  "repository": "https://github.com/scaffolder/atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
