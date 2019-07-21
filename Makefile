@@ -1,7 +1,9 @@
 .PHONY: show-releases check-tags create-release sync-origin push-branches push-tags 
 
 show-releases:
-	@echo "List of all release numbers...."
+	@echo "List of all release numbers:"
+	git tag
+	
 
 check-tags:
 	@read -p "Enter Environemtn to provision: " ENVIRONMENT; \
