@@ -13,7 +13,8 @@ create-release:
 	$$TAG 
 
 sync-origin:
-	push-branches push-tags
+	git push origin --all
+	git push origin --tag
 
 push-branches:
 	git push origin --all
